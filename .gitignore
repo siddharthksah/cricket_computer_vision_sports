@@ -91,3 +91,7 @@ target/
 data/
 
 yolov5/
+
+yolov8_tracking/
+
+comet_api_key.txt
