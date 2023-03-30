@@ -78,6 +78,6 @@ git clone https://github.com/siddharthksah/cricket_computer_vision_sports
 5. Run the `detect.py` script to detect objects in a video.
 
 
-
+All the training files can be found in the `training_notebook` folder. I will upload the dataset on Kaggle in a bit.
 
 
