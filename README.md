@@ -1,6 +1,3 @@
-cricket_analysis
-==============================
-
 The goal of this project is to build a computer vision model that can detect and classify different objects in a cricket match, such as ball, bat, the stumps, and the batsmen. The model is built using the YOLOv5 architecture, trained on a custom cricket dataset, and optimized using the Optuna hyperparameter optimization library.
 
 The second part of this project is to build a tracking system based on YOLOV8 and DeepSORT to track the cricket ball during the match.
