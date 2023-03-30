@@ -1,4 +1,5 @@
 import sys
+import platform
 
 REQUIRED_PYTHON = "python3"
 
@@ -19,6 +20,10 @@ def main():
                 required_major, sys.version))
     else:
         print(">>> Development environment passes all tests!")
+        print("Operating system: {}".format(platform.system()))
+        print("Operating system version: {}".format(platform.release()))
+        print("Machine architecture: {}".format(platform.machine()))
+        print("Python version: {}".format(sys.version))
 
 
 if __name__ == '__main__':
