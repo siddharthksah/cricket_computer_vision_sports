@@ -1,7 +1,9 @@
 cricket_analysis
 ==============================
 
-analyse cricket with computer vision
+The goal of this project is to build a computer vision model that can detect and classify different objects in a cricket match, such as ball, bat, the stumps, and the batsmen. The model is built using the YOLOv5 architecture, trained on a custom cricket dataset, and optimized using the Optuna hyperparameter optimization library.
+
+The second part of this project is to build a tracking system based on YOLOV8 and DeepSORT to track the cricket ball during the match.
 
 Project Organization
 ------------
@@ -55,3 +57,30 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+## Requirements
+
+The following libraries are required to run this project:
+
+- PyTorch
+- torchvision
+- OpenCV
+- matplotlib
+- numpy
+- pandas
+
+## Getting Started
+
+1. Clone the repository:
+```
+git clone https://github.com/siddharthksah/cricket_computer_vision_sports
+```
+2. Download the Dataset and extract it into the `data/raw` directory.
+3. Run the `preprocess.py` script to preprocess the data.
+4. Run the `train.py` script to train the model.
+5. Run the `detect.py` script to detect objects in a video.
+
+
+
+
+
